@@ -3,7 +3,7 @@ favorite_foods = ["Pizza", "Burger", "Ice Cream"]
 food_ratings = []
 
 def get_rating(food):
-    while True:  # This is iteration inside the procedure
+    while True: 
         print("Rate", food, "on a scale of 1 (being the worst), to 5 (being the best):")
         rating = input()
         if rating in ["1", "2", "3", "4", "5"]:
